@@ -126,7 +126,7 @@ function initLoginDeco(){
 
 const pwInput = document.getElementById('pwInput');
 const errorMsg = document.getElementById('errorMsg');
-const correctPW = ['MasterDrei', 'DreiMabait'];
+const correctPW = ['masterdrei', 'dreimbait'];
 document.getElementById('unlockBtn').addEventListener('click', tryUnlock);
 pwInput.addEventListener('keydown', e=>{ if(e.key==='Enter') tryUnlock(); });
 
