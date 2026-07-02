@@ -126,8 +126,7 @@ function initLoginDeco(){
 
 const pwInput = document.getElementById('pwInput');
 const errorMsg = document.getElementById('errorMsg');
-const correctPW = ['04/02/2007','october/04/2009','10-04-2009','october 4 2009','10/4/2009'];
-
+const correctPW = ['MasterDrei', 'DreiMabait'];
 document.getElementById('unlockBtn').addEventListener('click', tryUnlock);
 pwInput.addEventListener('keydown', e=>{ if(e.key==='Enter') tryUnlock(); });
 
